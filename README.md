@@ -1,6 +1,6 @@
 # ExerciseBook
 
-###Optional Requirements
+### Optional Requirements
 Volta is used to ensure node and npm versions. ( http://volta.sh)
 ```shell
 # install Volta
@@ -13,7 +13,17 @@ volta install node
 node
 ```
 
-##Front stack 
+## Routes
+
+### Front 
+ - / => /exercises
+ - /exercises
+ - /exercises/create
+
+### Back
+ - /api ( swagger-ui  shows all )
+
+## Front stack 
 
 - [x] React
 - [x] Nextjs
@@ -22,7 +32,7 @@ node
 - [x] Orval ( generate apihooks react query)
 - [x] React Query
 
-##Back stack 
+## Back stack 
 
 - [x] Node 16 (volta)
 - [x] Nestjs
