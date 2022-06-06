@@ -13,6 +13,17 @@ volta install node
 node
 ```
 
+## Usage
+
+```shell
+# start front ( localhost:3000)
+cd front && npm run start:dev
+
+# start back ( localhost:3001/api)
+cd back && npm run dev
+
+```
+
 ## Routes
 
 ### Front 
