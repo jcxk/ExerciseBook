@@ -17,10 +17,14 @@ node
 
 ```shell
 # start front ( localhost:3000)
-cd front && npm run start:dev
+cd front 
+npm i
+npm run dev
 
 # start back ( localhost:3001/api)
-cd back && npm run dev
+cd back 
+npm i
+npm run start:dev
 
 ```
 
